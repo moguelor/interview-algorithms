@@ -44,8 +44,7 @@
 
 ## Explanation
 
-You can see the explanation of the algorithm commented in the code.
-
+[See the code](index.js)
 
 ## Test
 
