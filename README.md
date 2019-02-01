@@ -8,11 +8,12 @@ The programming language is `javascript` and their respective tests are performe
 1. Initial Machine Setup
     * Install [Node 8.0.0](https://nodejs.org/en/) or greater
     * Install [Git](https://git-scm.com/downloads)
-    * Install [Jest](https://jestjs.io/) globally with the command `npm install jest -g`
-2. Clone the project
+2. Install the project
     * `git clone https://github.com/jmoguelruiz/interview-algorithms.git`
+    * `cd interview-algorithms`
+    * `npm install`
 3. Run tests.
-    * `jest interview-algorithms/lastMoveFromMatrix`
+    * `npm test`
 
 
 # 1. Algorithm "Get the last move from matrix"
@@ -65,4 +66,4 @@ You can see the explanation of the algorithm commented in the code.
 
 ## Test
 
-![See image](https://drive.google.com/uc?export=view&id=1MdsnOFyBwpGlndtKaWn84hhjZtypbpEh)
+![See image](https://drive.google.com/uc?export=view&id=1E-rOA2I33bLTTXWCiaADVNCTHgN3saS3)
