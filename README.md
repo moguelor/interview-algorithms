@@ -17,4 +17,4 @@ The programming language is `javascript` and their respective tests are performe
 
 # Algorithms
 
-1. [Algorithm "Get the last move from matrix"](algorithms/lastMoveFromMatrix/README.md)
+1. [Algorithm "Get the last move from matrix"](algorithms/lastMoveFromMatrix)
