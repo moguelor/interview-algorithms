@@ -58,4 +58,6 @@ Puedes ver el codigo comentado para entender aún mejor el proceso.
 
 ## Resultados de las pruebas
 
+Las pruebas se realizaron con la libreria [jest](https://jestjs.io/) creada por facebook, mostrando la eficiencia del algoritmo soportando el rango de validación requerida `1 <= N,M <= 10^9`
+
 ![See image](https://drive.google.com/uc?export=view&id=1E-rOA2I33bLTTXWCiaADVNCTHgN3saS3)
