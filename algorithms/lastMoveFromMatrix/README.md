@@ -46,7 +46,7 @@ La idea principal es definir los limites del arreglo dinamicamente para recorrer
 * Los movimientos siempre serán en este order `R -> D -> L -> U -> R -> D -> L -> ...`
 * Se necesitan un indice por cada movimiento (Top, Left, Right, Down) y estos nos ayudaran a definir los limites permitidos a recorrer.
 * Dependiendo del movimiento realizado se va `quemando` toda la fila o columna anterior indicando
-  que esta no se debe recorrer nuevamente.
+  que ésta no se debe recorrer nuevamente.
 
 Para que se entienda mejor observa las iteraciones de la siguiente imagen. 
 
