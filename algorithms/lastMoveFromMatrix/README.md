@@ -40,13 +40,20 @@
 
 ## Solución lógica
 
-### Pautas
+La idea principal es definir los limites del arreglo dinamicamente para recorrer unicamente las esquinas principales válidas de la espiral hasta llegar al último movimiento hecho.
+
+### Observaciónes
 * Los movimientos siempre serán en este order `R -> D -> L -> U -> R -> D -> L -> ...`
+* Se necesitan un indice por cada movimiento (Top, Left, Right, Down) y estos nos ayudaran a definir los limites permitidos a recorrer.
+* Dependiendo del movimiento realizado se va `quemando` toda la fila o columna anterior indicando
+  que esta no se debe recorrer nuevamente.
+
+Para que se entienda mejor observa las iteraciones de la siguiente imagen. 
 
 ![See image](https://drive.google.com/uc?export=view&id=17PMRgpSW6Ax2sqhNsakIwjYCMigVoi-L)
 
-## Explicación
-
+## Código
+Puedes ver el codigo comentado para entender aún mejor el proceso.
 [See the code](index.js)
 
 ## Resultados de las pruebas
