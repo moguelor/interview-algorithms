@@ -1,7 +1,7 @@
 
-# Algorithm "Get the last move from matrix"
+# Obtener el último movimiento de la matriz.
 
-## Problem:
+## Problema:
 
   ```
   Starting at the top left corner of an N x M grid and facing towards the right, 
@@ -38,14 +38,17 @@
   R
 ```
 
-## Logic Solution
+## Solución lógica
+
+### Pautas
+* Los movimientos siempre serán en este order `R -> D -> L -> U -> R -> D -> L -> ...`
 
 ![See image](https://drive.google.com/uc?export=view&id=17PMRgpSW6Ax2sqhNsakIwjYCMigVoi-L)
 
-## Explanation
+## Explicación
 
 [See the code](index.js)
 
-## Test
+## Resultados de las pruebas
 
 ![See image](https://drive.google.com/uc?export=view&id=1E-rOA2I33bLTTXWCiaADVNCTHgN3saS3)
