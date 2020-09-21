@@ -1,20 +1,19 @@
-# Algoritmos solicitados en entrevistas de trabajo.
+# Interview Algorithms
 
-Este repositorio contiene los algoritmos que me han solicitado hacer como requerimiento de la postulación de la empresa.
-Estan programados con el lenguaje de programación `javascript` y contienen sus respectivas pruebas para corroborar su funcionamiento.
+This repo contains all algorithms that I had to do in my interviewers. There are programmed with javascript.
 
 # Get Started
 
-1. Configuración inicial de la máquina
+1. init
     * Instalar [Node 8.0.0](https://nodejs.org/en/) o superior.
     * Instalar [Git](https://git-scm.com/downloads)
-2. Instalación del proyecto.
+2. project.
     * `git clone https://github.com/jmoguelruiz/interview-algorithms.git`
     * `cd interview-algorithms`
     * `npm install`
-3. Correr las pruebas.
+3. run test.
     * `npm test`
 
-# Algoritmos
+# Algorithms
 
-1. [Obtener el último movimiento de la matriz.](algorithms/lastMoveFromMatrix)
+1. [lastMoveFromMatrix](algorithms/lastMoveFromMatrix)
